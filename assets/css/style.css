@@ -1,0 +1,177 @@
+a:hover{
+    color: red;
+    transition: 2s;
+    -webkit-transition: 2s;
+    width:200px;
+    background: black;
+}	
+body{
+    background-image: url(../images/carbon_fibre/carbon_fibre.png);
+}
+#header{
+    background: #ffffff;
+    display: block;
+    position: relative;
+    margin-top: -2%;
+    
+}
+#myname, #links{
+    border: #cccccc solid 1px;
+    background: #cccccc;
+    
+}
+#myname{
+    background: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    width: 250px;
+    margin-left: 10%;
+    padding: 5px;
+    border: #cccccc solid 1px;
+}
+#links{
+    float: right;
+    margin-top: -2%;
+    margin-right: 10%;
+    background: #ffffff;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2%;
+    color: #4aaaa5;
+    text-align: left;
+}
+#aboutme{
+    position: relative;
+    text-align: center;
+width: 960px;
+}
+#Portfolio{
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    border: #dddddd solid 1px;
+    position: relative;
+    width: 960px;
+margin-left: 10%;
+}
+button{
+    background: #4aaaa5;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    border: #dddddd solid 1px;
+}
+#maincontent{
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    border: #dddddd solid 1px;
+    position: relative;
+    width: 960px;
+    height: 350px;
+margin-left: 10%;
+}
+#contact{
+        color: #777777;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #ffffff;
+        border: #dddddd solid 1px;
+        position: relative;
+        width: 960px;
+    margin-left: 10%;
+}
+#maincontent img{
+    width: 150px;
+    float: left;
+}
+/**I had trouble making a sticky footer**/
+footer{
+    border-top: #4aaaa5 solid 5px;
+    text-align: center;
+    background: #666666;
+    color: #777777;
+}
+/** I had trouble getting the layout correct**/
+.Hangman{
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+.hangmantext{
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    top: 70%;
+    color: #ffffff;
+    background: #4aaaa5;
+}
+.RPGGame{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    float: ;
+}
+.rpgtext{
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    top: 70%;
+    color: #ffffff;
+    background: #4aaaa5;
+}
+.Triviagame{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    float: ;
+}
+.triviatext{
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    top: 70%;
+    color: #ffffff;
+    background: #4aaaa5;
+}
+.Rutgers{
+
+    width: 200px;
+    height: 200px;
+    position: relative;
+    float: ;
+}
+.rutgerstext{
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    top: 77%;
+    color: #ffffff;
+    background: #4aaaa5;
+}
+.RPS{
+
+    width: 200px;
+    height: 200px;
+    position: relative;
+    float: ;
+}
+.rpstext{
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    top: 70%;
+    color: #ffffff;
+    background: #4aaaa5;
+}
+.layout{
+    display: block;
+}
+@media (max-width: 980px){
+
+}
+@media (max-width: 768px){
+
+}
+@media (max-width: 640px){
+
+}
